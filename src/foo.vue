@@ -15,7 +15,7 @@
   export default {
     data: {
       logoUrl: 'https://alibaba.github.io/weex/img/weex_logo_blue@3x.png',
-      target: 'World'
+      target: 'World YDZ'
     },
     methods: {
       update: function (e) {
