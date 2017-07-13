@@ -7,7 +7,7 @@
     <div class="card-action">
       <div class="input-group">
         <span class="input-group-addon">¥</span>
-        <input type="text" class="form-control" :placeholder=bookPrice disabled>
+        <input type="text" class="form-control" :placeholder=bookPrice disabled></input>
 
         <span class="input-group-btn">
                  <!--router-link 里面加入 target="_blank" 可以从新的选项卡打开一个新界面-->
@@ -21,7 +21,7 @@
 </template>
 
 <script>
-import router from '@/router';
+// import router from '@/router';
 
 export default {
   props: [
