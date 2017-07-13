@@ -19,9 +19,9 @@
 </template>
 
 <script>
-import navgationBar from './navigationBar';
-import bookCard from './bookCard';
-import footerView from './footerView';
+import navgationBar from './navigationBar.vue';
+import bookCard from './bookCard.vue';
+import footerView from './footerView.vue';
 
 export default {
   components: {
@@ -36,6 +36,6 @@ export default {
 </script>
 
 <style>
-@import '../style/style.css';
-@import '../style/bootstrap-flat.min.css';
+/*@import '../style/style.css';
+@import '../style/bootstrap-flat.min.css';*/
 </style>
